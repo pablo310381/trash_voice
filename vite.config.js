@@ -4,5 +4,5 @@ import { defineConfig } from 'vite'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: 'trash_voice'
+  base: process.env.GITHUB_PAGES ? '/trash_voice/' : '/',
 })

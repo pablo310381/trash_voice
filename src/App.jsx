@@ -13,7 +13,7 @@ export default function App() {
 
         <div className="logo-wrapper">
           <img
-            src="/logo.jpeg"
+            src={`${import.meta.env.BASE_URL}logo.jpeg`}
             alt="Мусорная озвучка"
             className="logo"
           />
